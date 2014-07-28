@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    font-size: 14pt;
+    font-family: DejaVu Serif, Times, serif;
+    color: white;
+}
+
+body {
+    background: url("/images/background.png") repeat;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+textarea {
+    width: 600px;
+    height: 250px;
+}
+
+.navigation {
+    position: absolute;
+    top: calc(50% - 216px / 2);
+    width: 10%;
+    min-width: 190px;
+    left: 0px;
+    z-index: 2; /* the nav gets hidden behind the push div otherwise */
+}
+
+.navi-top {
+    height: 24px;
+    background: url("/images/tendril_top.png") no-repeat right top;
+}
+
+.navi-content {
+    height: 192px;
+    background: url("/images/block.png") repeat-x left bottom, url("/images/tendril.png") repeat-y right top;
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.navigation ul li {
+    margin: 4px 0px;
+    width: 100%;
+}
+
+.navigation ul li a {
+    margin: 0px auto;
+    display: block;
+    border: 1px solid black;
+    background-color: #ba6314;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    background-color: #baa28d;
+    color: white;
+}
+
+.navigation ul li:first-child {
+    margin-top: 0px;
+}
+
+.main {
+    margin: 0px 0px -50px 0px;
+    height: auto !important;
+    min-height: 100%;
+    position: relative;
+}
+
+.content {
+    margin-left: 20%;
+}
+
+.footer {
+    background-image: url("/images/foot.png");
+    background-repeat: repeat-x;
+    background-color: #705f51;
+}
+
+.footer p {
+    margin: 0px;
+    position: relative;
+    top: 8px;
+    font-size: 11pt;
+ }
+
+.footer p a {
+    text-decoration: none;
+}
+
+.footer, .push {
+    height: 50px;
+}
+
+.header {
+    text-align: center;
+    background-image: url("/images/head.png");
+    background-repeat: repeat-x;
+    height: 100px;
+}
+
+.alert {
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: #EE2222;
+    color: black;
+    text-align: center;
+}
+
+.notice {
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: #02b12c;
+    color: black;
+    text-align: center;
+}

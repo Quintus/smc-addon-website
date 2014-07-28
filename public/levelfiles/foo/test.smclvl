@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+  <information>
+    <property name="game_version" value="2.0.0"/>
+    <property name="engine_version" value="40"/>
+    <property name="save_time" value="1405631212"/>
+  </information>
+  <settings>
+    <property name="lvl_author" value=""/>
+    <property name="lvl_version" value=""/>
+    <property name="lvl_music" value="land/land_2.ogg"/>
+    <property name="lvl_description" value="&#10;"/>
+    <property name="lvl_difficulty" value="0"/>
+    <property name="lvl_land_type" value="undefined"/>
+    <property name="cam_limit_x" value="0"/>
+    <property name="cam_limit_y" value="0"/>
+    <property name="cam_limit_w" value="20000"/>
+    <property name="cam_limit_h" value="-4000"/>
+    <property name="cam_fixed_hor_vel" value="0.000000"/>
+    <property name="unload_after_exit" value="0"/>
+  </settings>
+  <background>
+    <property name="type" value="103"/>
+    <property name="bg_color_1_red" value="0"/>
+    <property name="bg_color_1_green" value="50"/>
+    <property name="bg_color_1_blue" value="100"/>
+    <property name="bg_color_2_red" value="25"/>
+    <property name="bg_color_2_green" value="100"/>
+    <property name="bg_color_2_blue" value="200"/>
+  </background>
+  <background>
+    <property name="type" value="1"/>
+    <property name="posx" value="0.000000"/>
+    <property name="posy" value="0.000000"/>
+    <property name="posz" value="0.000110"/>
+    <property name="image" value="game/background/green_junglehills.png"/>
+    <property name="speedx" value="0.500000"/>
+    <property name="speedy" value="0.500000"/>
+    <property name="const_velx" value="0.000000"/>
+    <property name="const_vely" value="0.000000"/>
+  </background>
+  <player>
+    <property name="posx" value="747"/>
+    <property name="posy" value="-292"/>
+    <property name="direction" value="right"/>
+  </player>
+  <sprite>
+    <property name="posx" value="725"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="101"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="768"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="24"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="811"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="4"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="854"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="5"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="897"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="6"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="940"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="7"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="983"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="9"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="1026"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="10"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="1069"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="11"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="1112"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="14"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="1155"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="12"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="1198"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="18"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="1241"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="19"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <sprite>
+    <property name="posx" value="1284"/>
+    <property name="posy" value="-216"/>
+    <property name="uid" value="20"/>
+    <property name="image" value="blocks/brick/1_yellow.png"/>
+    <property name="type" value="massive"/>
+  </sprite>
+  <crate>
+    <property name="posx" value="926"/>
+    <property name="posy" value="-461"/>
+    <property name="uid" value="26"/>
+    <property name="image" value="blocks/extra/box.png"/>
+    <property name="type" value="crate"/>
+  </crate>
+  <enemy>
+    <property name="posx" value="927"/>
+    <property name="posy" value="-253"/>
+    <property name="uid" value="38"/>
+    <property name="image" value="enemy/eato/brown/1.png"/>
+    <property name="type" value="eato"/>
+    <property name="image_dir" value="enemy/eato/brown/"/>
+    <property name="direction" value="top_right"/>
+  </enemy>
+  <script>Timer.after(5000) do
+  a = Armadillo.new
+  a.start_at(1000, -450)
+  a.show
+end
+
+</script>
+</level>

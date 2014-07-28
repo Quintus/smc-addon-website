@@ -1,0 +1,11 @@
+<h1>Confirm registration</h1>
+
+<form accept-charset="UTF-8" action="/users/<%= params['nickname'] %>/confirm" method="post">
+  <p>
+    <label for="token">Token:</label><br/>
+    <input type="text" name="token" id="token" value="<%= params['token'] %>"/>
+  </p>
+  <p>
+    <input type="submit" value="Confirm"/>
+  </p>
+</form>

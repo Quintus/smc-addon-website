@@ -1,0 +1,36 @@
+<h1>Register</h1>
+
+<% if @errors %>
+  <div class="alert">
+    <ul>
+      <% @errors.each_pair do |attr, errors| %>
+	<li><%= attr %>: <%= errors.join(", ") %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<form accept-charset="UTF-8" action="/users/new" method="post">
+  <p>
+    <label for="nickname">Nickname:</label><br/>
+    <input type="text" id="nickname" name="nickname"/>
+  </p>
+  <p>
+    <label for="password">Password:</label><br/>
+    <input type="password" id="password" name="password"/>
+  </p>
+  <p>
+    <label for="email">E-Mail:</label><br/>
+    <input type="email" id="email" name="email"/>
+  </p>
+
+  <p>
+    After registering, you will receive a confirmation email with a
+    link you have to click in order to complete the registration. This
+    way we can be sure the email address actually exists.
+  </p>
+
+  <p>
+    <input type="submit" value="Register"/>
+  </p>
+</form>

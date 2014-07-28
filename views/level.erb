@@ -1,0 +1,18 @@
+<h1><%= @level.pretty_name %></h1>
+
+<p>
+  <%= markdown(@level.description) %>
+</p>
+
+<dl>
+  <dt>Version:</dt>
+  <dd><%= @level.version %></dd>
+  <dt>Required SMC version:</dt>
+  <dd><%= @level.smc_version_requirement %></dd>
+  <dt>Uploaded:</dt>
+  <dd><%= @level.uploaded_at.utc %></dd>
+</dl>
+
+<p>
+  <a class="button-ok" href="<%= @level.file_uri%>">DOWNLOAD</a>
+</p>

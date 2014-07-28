@@ -1,0 +1,11 @@
+<h1>Browse levels</h1>
+
+<p>
+  This is a list of all uploaded levels.
+</p>
+
+<ul>
+  <% @levels.each do |level| %>
+    <li><a href="<%= "/levels/#{level.user.nickname}/#{level.name}" %>"><%= level.pretty_name %></a> by <em><%= level.user.nickname %></em></li>
+  <% end %>
+</ul>
